@@ -6,9 +6,9 @@ import "rxjs";
   providedIn: "root"
 })
 export class GithubService {
-  private username = 'georgemunene';
-  private client_id = '49728768';
-  private client_secret = 'MDQ6VXNlcjQ5NzI4NzY4';
+  private username = '';
+  private client_id = '';
+  private client_secret = '';
 
   constructor(private http: HttpClient) {
     console.log("Github service started");
